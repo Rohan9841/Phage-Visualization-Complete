@@ -1,0 +1,16 @@
+TYPE=VIEW
+query=select `company`.`employee`.`Fname` AS `Fname`,`company`.`employee`.`Lname` AS `Lname` from `company`.`employee` where (`company`.`employee`.`Salary` > 3000)
+md5=e9460af3fb73f2987d959e7d2988c75b
+updatable=1
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2018-12-07 03:13:21
+create-version=2
+source=SELECT Fname, Lname \nFROM employee \nWHERE salary > 3000
+client_cs_name=utf8
+connection_cl_name=utf8_general_ci
+view_body_utf8=select `company`.`employee`.`Fname` AS `Fname`,`company`.`employee`.`Lname` AS `Lname` from `company`.`employee` where (`company`.`employee`.`Salary` > 3000)
+mariadb-version=100125
