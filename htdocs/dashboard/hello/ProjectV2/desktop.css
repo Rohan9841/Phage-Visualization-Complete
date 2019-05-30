@@ -1,0 +1,526 @@
+/* ---------------------------------index.html-------------------------------------------------------- */
+
+* {
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main {
+    padding-top: 6em;
+}
+
+header {
+    position: fixed !important;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 6em;
+    text-decoration: underline;
+}
+
+header .headerName {
+    font-size: 1.5em;
+    font-weight: 850;
+    color: #111;
+    display: block;
+    text-align: left;
+    padding: 1em;
+    line-height: 2em;
+    border-right: 0.1em solid black;
+    float: left;
+}
+
+header .headerName:hover {
+    text-decoration: underline;
+}
+
+header nav ul {
+    width: fit-content;
+    float: left;
+    padding-left: 2em;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header nav ul li a {
+    font-size: 1em;
+    color: black;
+    line-height: 6em;
+}
+
+header .header-photos {
+    border: 0.05em solid black;
+    color: black;
+    display: block;
+    float: right;
+    margin-right: 1em;
+    padding: 0.5em;
+    margin-top: 1.9em;
+}
+
+header .header-photos:hover {
+    text-decoration: underline;
+}
+
+main .index-home {
+    width: 100%;
+    height: calc(100vh - 6em);
+    background-image: url("images/computer-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    margin-bottom: 1em;
+}
+
+.home-content-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+main .index-home h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1em;
+    font-size: 3em;
+    font-weight: bolder;
+    text-shadow: 0.1em -0.1em 0.1em black;
+    color: whitesmoke;
+    text-align: center;
+   
+}
+
+main .index-home h2 {
+    width: 60%;
+    margin: 0 auto;
+    word-wrap: break-word;
+    margin-top: 3em;
+    font-size: 1.5em;
+    font-weight: 50;
+    font-style: italic;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    color: white;
+    text-align: center;
+   
+    
+}
+
+.index-menus{
+    background-color: blue;
+}
+
+.index-menus .index-menuBox-type1 {
+    margin: 0 0 1em 1em;
+    width: 20%;
+    padding: 1em;
+    height: 10em;
+    text-align: center;
+    display: table;
+    background-color: #ebebec;
+    float: left;
+    
+}
+
+.index-menus .index-menuBox-type1:hover {
+    background-color: #d6d6d6;
+}
+
+.index-menus .index-menuBox-type2 {
+    margin: 0 0 1em 1em;
+    width: 40%;
+    padding: 1em;
+    height: 10em;
+    text-align: center;
+    background-color: #ebebec;
+    display: table;
+    float: left;
+    
+}
+
+.index-menus .index-menuBox-type2:hover {
+    background-color: #d6d6d6;
+}
+
+#photoMenu {
+    position: relative;
+    left: 12%;
+}
+
+#contactMenu {
+    position: relative;
+    left: 12%;
+}
+
+.index-menus div {
+    display: table-cell;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: black;
+}
+
+footer {
+    width: 80%;
+    margin: 1em auto;
+    height: 4em;
+    padding: 1em;
+    background-color: #222121;
+    overflow: hidden;
+    clear: both;
+    display: block;
+}
+
+footer ul {
+    padding-right: 1em;
+    float: left;
+    line-height: 120%;
+}
+
+footer ul li {
+    color: #ebebec;
+    list-style: none;
+    display: block;
+}
+
+footer ul li a {
+    color: #ebebec;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer .footer-iconDiv {
+    float: right;
+}
+
+footer .footer-iconDiv a {
+    display: block;
+    margin-right: 2em;
+    position: relative;
+    top: 1em;
+}
+
+footer .footer-iconDiv a img {
+    width: 1em;
+}
+
+footer .footer-iconDiv a img:hover {
+    border: 0.05em solid grey;
+}
+
+/* ----------------------------------------------project.html----------------------------------- */
+
+.project-links {
+    overflow: hidden;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+.project-h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3em;
+    margin-left: 0.8em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.project-links ol {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.project-links ol li {
+    width: 18em;
+    height: 18em;
+    padding: 1em;
+    margin-right: 1em;
+    padding-bottom: 2em;
+}
+
+.project-links ol li a {
+    color: white;
+}
+
+.project-links ol li a:hover {
+    text-decoration: underline;
+}
+
+.project-links ol li label {
+    padding: 1em;
+}
+
+.project-links ol li .container {
+    position: relative;
+    margin-top: 1em;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.project-links ol li .image {
+    display: block;
+    width: 18em;
+    height: 18em;
+    margin: 0 auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 0.05em #4C4D56 solid;
+}
+
+.project-links ol li .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.project-links ol li .container:hover .image {
+    opacity: 0.3;
+}
+
+.project-links ol li .container:hover .middle {
+    opacity: 1;
+}
+
+.project-links ol li .text {
+    background-color: #4C4D56;
+    color: white;
+    font-size: 1em;
+    padding: 1em 1em;
+}
+
+/* ---------------------------------------------About me---------------------------------------------- */
+
+.profile {
+    margin-bottom: 1em;
+    margin-right: 1em;
+    width: 100%;
+}
+
+.profile h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3em;
+    margin-left: 0.8em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.profile figure{
+    width: 80%;
+    margin: 0 auto;
+    background-color: green;
+}
+
+.profile figure #profile-main-pic{
+    display: block;
+    width: 100%;
+}
+
+.profile figure .slideshow-container-box{
+    position: absolute;
+    top: 12.5em;
+    max-width: 25%;
+    max-height: 50%;
+    display: block;
+    overflow: hidden;
+}
+
+.profile figure .slideshow-container-box img{
+    width: 100%;
+}
+.numbertext{
+    color: white;
+    font-size: 1em;
+    padding: 0.1em;
+    position: absolute;
+    top: 0;
+}
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade{
+    from{
+        opacity: .3
+    }
+    to{
+        opacity: 1
+    }
+}
+
+
+@keyframes fade{
+    from{
+        opacity: .3
+    }
+    to{
+        opacity: 1
+    }
+}
+
+
+
+.profile article h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+
+.profile article .column {
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 1em;
+}
+
+.profile article .column p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-wrap: break-word;
+}
+
+.profile article .column p a {
+    color: black;
+    text-decoration: underline;
+}
+
+.profile article .row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.profile article .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* ---------------------------------------------------------------------Resume----------------------------------------------------------------- */
+
+.resume {
+    margin-bottom: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.resume-h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3em;
+    margin-left: 0.8em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.resume .resumeContainer {
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 0.5em;
+}
+
+.resume .resumeContainer h3 {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+.resume .resumeContainer p {
+    line-height: 1.3em;
+}
+
+.resume .resumeContainer li {
+    line-height: 1.3em;
+}
+
+.resume .resumeContainer .resume-work {
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+}
+
+.resume .resumeContainer .resume-work span {
+    font-weight: 600;
+}
+
+.resume .resumeContainer ol li {
+    margin-bottom: 0.5em;
+}
+
+.resume .resumeContainer ol li label {
+    font-weight: 600;
+}
+
+/* ------------------------------------------------------------Contact.html-------------------------------------------------------------------------- */
+
+.contact-h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3em;
+    margin-left: 0.8em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.contact {
+    margin-bottom: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    width: 80%;
+}
+
+.contact form{
+    transition: all 4s ease-in-out;
+}
+
+.contact form label{
+    font-size: 1.1em;
+}
+
+.contact form .form-control{
+    width: 80%;
+    height: 1.2em;
+    background:transparent;
+    border: none; 
+    outline: none;
+    border-bottom: 0.05em solid #4C4D56;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    
+}
+.contact form .messageBox{
+    display: block;
+    height: 6em;
+    width: 60%;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+.contact form .submitButton{
+    padding: 0.5em;
+    margin-bottom: 2em;
+}
+
+.contact form .submitButton:hover{
+    background-color: grey;
+    cursor: pointer;
+}
